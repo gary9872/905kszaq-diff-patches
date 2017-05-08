@@ -28,3 +28,4 @@ MD5-SUMS for successful patches
 f9d4d795a7ecbf5552c35de748f23a27  LibreELEC-S905.arm-8.0-8.0.1j.img
 38d9ff6a091af932da99e0ea6ebfd822  LibreELEC-S905.arm-8.0-8.0.1i.img
 f926a1b2e5f44a10655330727fa8334d  LibreELEC-S905.arm-8.0-8.0.1h.img
+09eb407af6d9c44ace293502f3800a7b  LibreELEC-S905.arm-8.0-8.0.1g.img
