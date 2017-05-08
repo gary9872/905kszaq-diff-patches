@@ -20,3 +20,8 @@ xdelta3 -d -s LibreELEC-S905.arm-8.0-8.0.1i.img LibreELEC-S905.arm-8.0-8.0.1-I-T
 
 (xdelta3 -d -s SOURCE PATCHFILE TARGET)
 
+MD5-SUMS for successful patches
+-------------------------------
+
+f9d4d795a7ecbf5552c35de748f23a27  LibreELEC-S905.arm-8.0-8.0.1j.img
+38d9ff6a091af932da99e0ea6ebfd822  LibreELEC-S905.arm-8.0-8.0.1i.img
