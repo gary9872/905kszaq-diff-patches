@@ -14,11 +14,18 @@ Example: (For Linux)
 
 To update from version i to j
 
-Unzip  (using gzip program)
+
+Unzip  (using gzip program www.gzip.org)
+---------------------------------------------
 
 $ gunzip LibreELEC-S905.arm-8.0-8.0.1i.img.gz 
 
 $ xdelta3 -d -s LibreELEC-S905.arm-8.0-8.0.1i.img LibreELEC-S905.arm-8.0-8.0.1-I-TO-J LibreELEC-S905.arm-8.0-8.0.1j.img 
+
+---------------------------------------------
+
+
+(the above command should be all on one line)
 
 (xdelta3 -d -s SOURCE PATCHFILE TARGET)
 
