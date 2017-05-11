@@ -8,7 +8,13 @@ RED='\033[0;31m'
 NC='\033[0m'
 
 ERROR="${YELLOW}\nEnding Script Here\n\n"
-
+if [[ $EUID -eq 0 ]]; then
+   echo
+   echo "So you're a baller, running my very 'hack' script as ROOT!"
+   echo "But don't complain if your whole computer dies a horrible , horrible death, because of it." 
+   echo
+   echo "Hit CTRL-C now if you have any sanity left.." 
+ fi
 declare -i keepgoing=1
 echo
 read -p "What Revision are we updating?  (a-i) " update
@@ -98,7 +104,7 @@ newfile="LibreELEC-S905.arm-8.0-8.0.1$newlower.img"
 echo 
 to="TO"
 echo
-echo "Upgrading from $file to $newfile"
+echo "Updating from $file to $newfile"
 patchfile="LibreELEC-S905.arm-8.0-8.0.1-$oldupper-TO-$newupper"
 xdelta3 -d -s $file $patchfile $newfile
 check=$(eval md5sum $newfile)
