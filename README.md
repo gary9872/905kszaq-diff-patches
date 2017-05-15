@@ -45,9 +45,7 @@ f524459a0fbd98060d6a5f3518789fdb  LibreELEC-S905.arm-8.0-8.0.1f.img
 f926a1b2e5f44a10655330727fa8334d  LibreELEC-S905.arm-8.0-8.0.1h.img
 38d9ff6a091af932da99e0ea6ebfd822  LibreELEC-S905.arm-8.0-8.0.1i.img
 9d4d795a7ecbf5552c35de748f23a27   LibreELEC-S905.arm-8.0-8.0.1j.img
-
-
-
+3946f1c51ac2f48638a03e33695cce09  LibreELEC-S905.arm-8.0-8.0.1k.img
 
 
 
